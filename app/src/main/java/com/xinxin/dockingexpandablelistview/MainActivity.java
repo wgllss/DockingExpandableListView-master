@@ -12,6 +12,8 @@ import com.xinxin.dockingexpandablelistview.controller.IDockingHeaderUpdateListe
 
 public class MainActivity extends AppCompatActivity {
 
+    private DockingExpandableListViewAdapter mDockingExpandableListViewAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,7 +75,43 @@ public class MainActivity extends AppCompatActivity {
                     .addChild("Dessert #5")
                     .addChild("Dessert #6")
                     .addChild("Dessert #7")
-                    .addChild("Dessert #8");
+                    .addChild("Dessert #8")
+        .addGroup("Group #4")
+                .addChild("Dessert #1")
+                .addChild("Dessert #2")
+                .addChild("Dessert #3")
+                .addChild("Dessert #4")
+                .addChild("Dessert #5")
+                .addChild("Dessert #6")
+                .addChild("Dessert #7")
+                .addChild("Dessert #8")
+        .addGroup("Group #5")
+                .addChild("Dessert #1")
+                .addChild("Dessert #2")
+                .addChild("Dessert #3")
+                .addChild("Dessert #4")
+                .addChild("Dessert #5")
+                .addChild("Dessert #6")
+                .addChild("Dessert #7")
+                .addChild("Dessert #8")
+        .addGroup("Group #6")
+                .addChild("Dessert #1")
+                .addChild("Dessert #2")
+                .addChild("Dessert #3")
+                .addChild("Dessert #4")
+                .addChild("Dessert #5")
+                .addChild("Dessert #6")
+                .addChild("Dessert #7")
+                .addChild("Dessert #8")
+        .addGroup("Group #7")
+                .addChild("Dessert #1")
+                .addChild("Dessert #2")
+                .addChild("Dessert #3")
+                .addChild("Dessert #4")
+                .addChild("Dessert #5")
+                .addChild("Dessert #6")
+                .addChild("Dessert #7")
+                .addChild("Dessert #8");
 
         return listData;
     }
